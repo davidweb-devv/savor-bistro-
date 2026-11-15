@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Savor Bistro | Design preview</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fffbe8;color:#2b2112;font:400 17px/1.6 "DM Sans",sans-serif}
+.note{background:#2b2112;color:#fffbe8;font-size:13px;text-align:center;padding:8px 14px}
+.wrap{max-width:720px;margin:0 auto;padding:0 22px}
+.hero{display:grid;gap:24px;padding:44px 0}
+.hero h1{font-weight:700;font-size:clamp(44px,13vw,76px);line-height:1;letter-spacing:-.03em;margin:0}
+.hero h1 b{background:#f2a900;padding:0 10px;border-radius:12px}
+.hero p{font-size:19px;margin:0;opacity:.8}
+.btn{display:inline-block;padding:15px 26px;border-radius:14px;background:#2b2112;color:#fffbe8;font-weight:700;text-decoration:none}
+.deal{background:#f2a900;border-radius:20px;padding:20px 22px;font-weight:700;display:flex;gap:12px;align-items:center}
+.deal span{font-weight:400}
+h2{font-size:clamp(28px,8vw,38px);margin:44px 0 6px;letter-spacing:-.02em}
+.sub{opacity:.7;margin:0 0 20px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#fff;border:2px solid #eadfb8;border-radius:18px;padding:16px;display:flex;flex-direction:column;justify-content:space-between;gap:14px;font-weight:700}
+.price{align-self:flex-start;background:#fff1b8;border-radius:999px;padding:4px 12px;font-size:15px}
+.info{margin:44px 0 24px;padding:22px;border-radius:20px;background:#fff;border:2px solid #eadfb8}
+footer{font-size:13px;opacity:.6;padding:0 0 36px}
+@media(max-width:380px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="note">Design preview by David Dachen. Not the official site.</div>
+<div class="wrap">
+  <header class="hero">
+    <h1>Savor <b>Bistro</b></h1>
+    <p>Jollof, shawarma, pasta and more. Fresh, filling, and made to order in Wuse II.</p>
+    <div><a class="btn" href="https://wa.me/2348034144644?text=Hello%2C%20I%20want%20to%20order">Order on WhatsApp</a></div>
+  </header>
+  <div class="deal">Order direct <span>No delivery-app fees. Just message us.</span></div>
+  <h2>Favourites</h2>
+  <p class="sub">Sample menu. Prices to be confirmed by the restaurant.</p>
+  <div class="grid">
+    <div class="card">Shawarma Combo Meal<span class="price">₦5,000</span></div>
+    <div class="card">Rice Combo Meal<span class="price">₦4,500</span></div>
+    <div class="card">Chicken Wings &amp; Chips<span class="price">₦4,500</span></div>
+    <div class="card">Creamy Pasta<span class="price">₦8,000</span></div>
+    <div class="card">Jollof Rice<span class="price">₦1,500</span></div>
+  </div>
+  <div class="info">
+    <b>Come by</b><br>141 Adetokunbo Ademola Crescent, Wuse II, Abuja<br>Monday to Sunday, 9:00 AM till late
+  </div>
+  <footer>Sample design. Content is placeholder until confirmed by the business.</footer>
+</div>
+</body>
+</html>
